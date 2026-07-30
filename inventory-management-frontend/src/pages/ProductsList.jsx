@@ -63,7 +63,7 @@ function ProductsList() {
       localStorage.removeItem("token");
       localStorage.removeItem("user");
       toast.success("Logged out");
-      navigate("/auth");
+      navigate("/");
     }
   };
 
